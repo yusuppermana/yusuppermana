@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhamad Yusup Permana | IT Specialist & System Analyst Portfolio</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#ecfdf5',
+                            100: '#d1fae5',
+                            400: '#34d399',
+                            500: '#10b981',
+                            600: '#059669',
+                            700: '#047857',
+                            900: '#064e3b',
+                            dark: '#0B1320',
+                            card: '#111C2E',
+                            border: '#1E293B'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome & Lucide Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0B1320;
+            color: #F3F4F6;
+        }
+        .glass-header {
+            background: rgba(11, 19, 32, 0.85);
+            backdrop-filter: blur(12px);
+        }
+        .glow-effect {
+            box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.3);
+        }
+        .glow-card:hover {
+            box-shadow: 0 0 30px -5px rgba(16, 185, 129, 0.25);
+            border-color: rgba(16, 185, 129, 0.5);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #10b981 0%, #6EE7B7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- NAVBAR -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-header border-b border-brand-border/60 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl bg-brand-500/10 border border-brand-500/30 flex items-center justify-center text-brand-400 font-bold text-xl group-hover:scale-105 transition-transform">
+                    YP
+                </div>
+                <div>
+                    <span class="font-bold text-lg text-white block leading-tight">Yusup Permana</span>
+                    <span class="text-xs text-brand-400 font-medium block">IT & Financial System Analyst</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
+                <a href="#about" class="hover:text-brand-400 transition-colors">Tentang</a>
+                <a href="#skills" class="hover:text-brand-400 transition-colors">Keahlian</a>
+                <a href="#experience" class="hover:text-brand-400 transition-colors">Pengalaman</a>
+                <a href="#services" class="hover:text-brand-400 transition-colors">Spesialisasi</a>
+                <a href="#contact" class="hover:text-brand-400 transition-colors">Kontak</a>
+            </nav>
+
+            <div class="hidden md:flex items-center gap-4">
+                <a href="https://wa.me/6281271488583" target="_blank" class="px-5 py-2.5 rounded-xl bg-brand-500 hover:bg-brand-600 text-white font-semibold text-sm transition-all shadow-lg shadow-brand-500/20 hover:scale-105 flex items-center gap-2">
+                    <i class="fab fa-whatsapp text-lg"></i> WhatsApp
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button id="menu-btn" class="md:hidden text-gray-300 hover:text-white text-2xl">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Nav Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-card border-b border-brand-border px-6 py-6 space-y-4">
+            <a href="#about" class="block text-gray-300 hover:text-brand-400 font-medium">Tentang</a>
+            <a href="#skills" class="block text-gray-300 hover:text-brand-400 font-medium">Keahlian</a>
+            <a href="#experience" class="block text-gray-300 hover:text-brand-400 font-medium">Pengalaman</a>
+            <a href="#services" class="block text-gray-300 hover:text-brand-400 font-medium">Spesialisasi</a>
+            <a href="#contact" class="block text-gray-300 hover:text-brand-400 font-medium">Kontak</a>
+            <a href="https://wa.me/6281271488583" target="_blank" class="w-full text-center py-3 rounded-xl bg-brand-500 text-white font-semibold flex items-center justify-center gap-2">
+                <i class="fab fa-whatsapp"></i> WhatsApp Saya
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="pt-36 pb-20 md:pt-44 md:pb-32 relative overflow-hidden">
+        <!-- Background Decorative Glows -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-brand-500/15 blur-3xl rounded-full pointer-events-none"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid md:grid-cols-12 gap-12 items-center">
+                
+                <div class="md:col-span-7 space-y-6 text-center md:text-left">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-xs sm:text-sm font-semibold">
+                        <span class="w-2 h-2 rounded-full bg-brand-400 animate-ping"></span>
+                        Spesialis Aplikasi Pemerintah Daerah (Pemda)
+                    </div>
+
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+                        Muhamad Yusup <br><span class="gradient-text">Permana</span>
+                    </h1>
+
+                    <p class="text-lg sm:text-xl text-gray-400 max-w-2xl font-normal leading-relaxed">
+                        Profesional IT & Analis Sistem berpengalaman lebih dari 10 tahun dalam <strong class="text-gray-200">Pengolahan Data MySQL</strong>, <strong class="text-gray-200">Optimasi Query</strong>, dan <strong class="text-gray-200">Akuntansi Sektor Publik</strong>. Menjembatan kebutuhan teknis perangkat lunak dengan regulasi keuangan daerah & audit BPK.
+                    </p>
+
+                    <div class="pt-4 flex flex-wrap items-center justify-center md:justify-start gap-4">
+                        <a href="https://wa.me/6281271488583" target="_blank" class="px-7 py-3.5 rounded-xl bg-brand-500 hover:bg-brand-600 text-white font-semibold text-base transition-all shadow-xl shadow-brand-500/25 hover:-translate-y-0.5 flex items-center gap-3">
+                            <i class="fab fa-whatsapp text-xl"></i> Hubungi WhatsApp
+                        </a>
+                        <a href="mailto:yusuppermana52@gmail.com" class="px-7 py-3.5 rounded-xl bg-brand-card hover:bg-brand-border border border-brand-border text-gray-200 hover:text-white font-semibold text-base transition-all hover:-translate-y-0.5 flex items-center gap-3">
+                            <i class="far fa-envelope text-lg text-brand-400"></i> Kirim Email
+                        </a>
+                    </div>
+
+                    <!-- Contact Meta Info Pills -->
+                    <div class="pt-6 border-t border-brand-border/60 grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs text-gray-400">
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-map-marker-alt text-brand-400 text-base"></i>
+                            <span>Dramaga, Kab. Bogor, Jawa Barat</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-university text-brand-400 text-base"></i>
+                            <span>D3 Keuangan & Perbankan (UIKA)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Avatar Card -->
+                <div class="md:col-span-5 flex justify-center">
+                    <div class="relative w-72 h-72 sm:w-80 sm:h-80 rounded-3xl bg-gradient-to-tr from-brand-500 to-emerald-300 p-1 glow-effect">
+                        <div class="w-full h-full bg-brand-card rounded-[22px] overflow-hidden relative flex flex-col items-center justify-center p-6 text-center">
+                            <!-- Visual Graphic Avatar Icon -->
+                            <div class="w-28 h-28 rounded-full bg-brand-900/60 border-2 border-brand-500/40 flex items-center justify-center text-brand-400 text-5xl mb-4">
+                                <i class="fas fa-user-gear"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white">Muhamad Yusup Permana</h3>
+                            <p class="text-xs text-brand-400 mt-1 font-medium">Supervisor & System Analyst</p>
+
+                            <div class="mt-6 flex items-center gap-2 px-3 py-1.5 rounded-lg bg-brand-dark/80 border border-brand-border text-xs text-gray-300">
+                                <i class="fas fa-database text-brand-400"></i> MySQL Query Optimization
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS COUNTER BAR -->
+    <section class="py-10 bg-brand-card/50 border-y border-brand-border/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="space-y-1">
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-white">10+ <span class="text-brand-400">Tahun</span></h3>
+                    <p class="text-xs sm:text-sm text-gray-400 font-medium">Pengalaman Industri IT & Keuangan</p>
+                </div>
+                <div class="space-y-1">
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-white">100%</h3>
+                    <p class="text-xs sm:text-sm text-gray-400 font-medium">Kepatuhan Standar Akuntansi Pemda</p>
+                </div>
+                <div class="space-y-1">
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-white">BPK <span class="text-brand-400">Ready</span></h3>
+                    <p class="text-xs sm:text-sm text-gray-400 font-medium">Pemeriksaan & Pengorganisasian Data</p>
+                </div>
+                <div class="space-y-1">
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-white">MySQL</h3>
+                    <p class="text-xs sm:text-sm text-gray-400 font-medium">Spesialis Optimasi Database & Query</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+                <h2 class="text-xs font-bold tracking-widest text-brand-400 uppercase">Profil Profesional</h2>
+                <h3 class="text-3xl sm:text-4xl font-bold text-white">Menjembatani Kebutuhan Teknis & Administratif</h3>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-brand-card border border-brand-border rounded-2xl p-8 space-y-6 glow-card transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-brand-500/10 border border-brand-500/30 flex items-center justify-center text-brand-400 text-2xl">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white">Spesialisasi Teknis & Database</h4>
+                    <p class="text-gray-400 leading-relaxed text-sm">
+                        Menguasai pengelolaan basis data relasional MySQL dengan fokus utama pada penyusunan dan optimasi query untuk analisis data skala besar, pelaporan kompleks (Reporting System), serta pengolahan data aplikasi secara efisien.
+                    </p>
+                </div>
+
+                <div class="bg-brand-card border border-brand-border rounded-2xl p-8 space-y-6 glow-card transition-all">
+                    <div class="w-12 h-12 rounded-xl bg-brand-500/10 border border-brand-500/30 flex items-center justify-center text-brand-400 text-2xl">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white">Pemahaman Akuntansi Pemda & Audit BPK</h4>
+                    <p class="text-gray-400 leading-relaxed text-sm">
+                        Didukung latar belakang pendidikan Keuangan & Perbankan serta pengalaman berinteraksi langsung dengan auditor Badan Pemeriksa Keuangan (BPK), memastikan sistem aplikasi yang dikembangkan 100% akurat dan patuh regulasi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="py-24 bg-brand-card/30 border-y border-brand-border/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+                <h2 class="text-xs font-bold tracking-widest text-brand-400 uppercase">Keahlian & Tools</h2>
+                <h3 class="text-3xl sm:text-4xl font-bold text-white">Teknologi & Kompetensi Utama</h3>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Skill Card 1 -->
+                <div class="bg-brand-card border border-brand-border rounded-2xl p-6 glow-card transition-all space-y-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center text-xl">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white">MySQL & Query Optimization</h4>
+                            <span class="text-xs text-gray-400">Database Engine & Indexing</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-400">Penyusunan query kompleks, optimasi pemrosesan data, dan penanganan struktur database pelaporan.</p>
+                </div>
+
+                <!-- Skill Card 2 -->
+                <div class="bg-brand-card border border-brand-border rounded-2xl p-6 glow-card transition-all space-y-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-purple-500/10 text-purple-400 flex items-center justify-center text-xl">
+                            <i class="fab fa-php"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white">PHP / HTML & CSS</h4>
+                            <span class="text-xs text-gray-400">Web Application Development</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-400">Pengembangan komponen aplikasi web dasar, integrasi logika bisnis, dan pengolahan form data.</p>
+                </div>
+
+                <!-- Skill Card 3 -->
+                <div class="bg-brand-card border border-brand-border rounded-2xl p-6 glow-card transition-all space-y-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white">Reporting Systems</h4>
+                            <span class="text-xs text-gray-400">Data Analytics & Reports</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-400">Perancangan modul pelaporan keuangan dan statistik untuk pemerintah daerah (Kabupaten/Kota).</p>
+                </div>
+
+                <!-- Skill Card 4 -->
+                <div class="bg-brand-card border border-brand-border rounded-2xl p-6 glow-card transition-all space-y-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-yellow-500/10 text-yellow-400 flex items-center justify-center text-xl">
+                            <i class="fas fa-building-columns"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white">Akuntansi Sektor Publik</h4>
+                            <span class="text-xs text-gray-400">Pemda Accounting Compliance</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-400">Pemahaman mendalam alur pencatatan keuangan daerah sesuai standar akuntansi publik pemerintah.</p>
+                </div>
+
+                <!-- Skill Card 5 -->
+                <div class="bg-brand-card border border-brand-border rounded-2xl p-6 glow-card transition-all space-y-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-red-500/10 text-red-400 flex items-center justify-center text-xl">
+                            <i class="fas fa-shield-check"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white">Audit Support (BPK)</h4>
+                            <span class="text-xs text-gray-400">Audit Data Preparation</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-400">Menyiapkan dan mengorganisir data transaksi keuangan secara akurat untuk proses audit Badan Pemeriksa Keuangan.</p>
+                </div>
+
+                <!-- Skill Card 6 -->
+                <div class="bg-brand-card border border-brand-border rounded-2xl p-6 glow-card transition-all space-y-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-green-500/10 text-green-400 flex items-center justify-center text-xl">
+                            <i class="fas fa-file-excel"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white">Microsoft Excel</h4>
+                            <span class="text-xs text-gray-400">Advanced Data Processing</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-400">Pengolahan data keuangan lanjutan, validasi data ekspor-impor, dan rekonsiliasi angka.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+                <h2 class="text-xs font-bold tracking-widest text-brand-400 uppercase">Rekam Jejak Karir</h2>
+                <h3 class="text-3xl sm:text-4xl font-bold text-white">Pengalaman Kerja Profesional</h3>
+            </div>
+
+            <div class="max-w-4xl mx-auto space-y-8 relative before:absolute before:inset-0 before:left-8 before:md:left-1/2 before:-translate-x-px before:h-full before:w-0.5 before:bg-brand-border">
+
+                <!-- Job 1 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full bg-brand-500 text-white shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 shadow-lg shadow-brand-500/30">
+                        <i class="fas fa-briefcase text-sm"></i>
+                    </div>
+
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-brand-card border border-brand-border rounded-2xl p-6 glow-card transition-all">
+                        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                            <span class="px-3 py-1 rounded-full bg-brand-500/10 text-brand-400 font-semibold text-xs border border-brand-500/20">
+                                Jan 2024 - Jun 2026
+                            </span>
+                            <span class="text-xs text-gray-400">CV. Tirta Mahardika Utama</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-white">Supervisor 2</h4>
+                        <ul class="mt-4 space-y-2 text-xs sm:text-sm text-gray-400 list-disc list-inside">
+                            <li>Mengkoordinasikan dengan tim programmer untuk mengidentifikasi dan menyelesaikan masalah/bug yang muncul dalam aplikasi.</li>
+                            <li>Menyusun alur aplikasi yang efisien dan mematuhi peraturan perundang-undangan yang berlaku.</li>
+                            <li>Menyiapkan dan mengorganisir data yang diperlukan untuk proses audit oleh Badan Pemeriksa Keuangan (BPK).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full bg-brand-dark border-2 border-brand-500 text-brand-400 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                        <i class="fas fa-calculator text-sm"></i>
+                    </div>
+
+                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-brand-card border border-brand-border rounded-2xl p-6 glow-card transition-all">
+                        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                            <span class="px-3 py-1 rounded-full bg-gray-800 text-gray-300 font-semibold text-xs border border-gray-700">
+                                Jun 2014 - Jan 2024
+                            </span>
+                            <span class="text-xs text-gray-400">Pemda PT. Surya Murfa Mahardika</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-white">Akuntan Keuangan Pemda</h4>
+                        <ul class="mt-4 space-y-2 text-xs sm:text-sm text-gray-400 list-disc list-inside">
+                            <li>Berkolaborasi dengan tim pengembang software untuk memastikan pemahaman mendalam mengenai proses akuntansi agar terintegrasi sempurna ke dalam aplikasi.</li>
+                            <li>Bertanggung jawab atas pemeliharaan dan analisis catatan keuangan daerah untuk menjamin akurasi dan kepatuhan standar akuntansi publik.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="py-16 bg-brand-card/30 border-y border-brand-border/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto bg-brand-card border border-brand-border rounded-2xl p-8 flex flex-col sm:flex-row items-center justify-between gap-6">
+                <div class="flex items-center gap-5">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-500/10 border border-brand-500/30 flex items-center justify-center text-brand-400 text-3xl">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div>
+                        <span class="text-xs font-bold text-brand-400 uppercase tracking-wider">Pendidikan Terakhir</span>
+                        <h4 class="text-xl font-bold text-white">Universitas Ibn Khaldun Bogor</h4>
+                        <p class="text-sm text-gray-400">Diploma 3 (D3) Keuangan dan Perbankan</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 text-xs text-gray-400 bg-brand-dark px-4 py-2 rounded-xl border border-brand-border">
+                    <i class="fas fa-globe"></i> Bahasa Indonesia (Native) | English (Basic)
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+                <h2 class="text-xs font-bold tracking-widest text-brand-400 uppercase">Hubungi Saya</h2>
+                <h3 class="text-3xl sm:text-4xl font-bold text-white">Mari Berdiskusi & Berkolaborasi</h3>
+                <p class="text-gray-400 text-sm">Siap berkontribusi dalam analisis sistem, optimasi database MySQL, dan pengembangan aplikasi pemerintah daerah.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                
+                <!-- Phone / WhatsApp -->
+                <a href="https://wa.me/6281271488583" target="_blank" class="bg-brand-card border border-brand-border rounded-2xl p-6 text-center glow-card transition-all space-y-3 group">
+                    <div class="w-12 h-12 rounded-xl bg-green-500/10 text-green-400 flex items-center justify-center text-2xl mx-auto group-hover:scale-110 transition-transform">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h4 class="font-bold text-white">WhatsApp / Telepon</h4>
+                    <p class="text-sm text-brand-400 font-semibold">+62 812-7148-8583</p>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:yusuppermana52@gmail.com" class="bg-brand-card border border-brand-border rounded-2xl p-6 text-center glow-card transition-all space-y-3 group">
+                    <div class="w-12 h-12 rounded-xl bg-red-500/10 text-red-400 flex items-center justify-center text-2xl mx-auto group-hover:scale-110 transition-transform">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <h4 class="font-bold text-white">Alamat Email</h4>
+                    <p class="text-sm text-brand-400 font-semibold">yusuppermana52@gmail.com</p>
+                </a>
+
+                <!-- Location -->
+                <div class="bg-brand-card border border-brand-border rounded-2xl p-6 text-center glow-card transition-all space-y-3">
+                    <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-400 flex items-center justify-center text-2xl mx-auto">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h4 class="font-bold text-white">Domisili</h4>
+                    <p class="text-xs text-gray-400">Kp. Bojongsari RT 004 / RW 001, Desa Neglasari, Dramaga, Kab. Bogor 16680</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 bg-brand-dark border-t border-brand-border/60 text-center text-xs text-gray-500">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>&copy; 2026 Muhamad Yusup Permana. All rights reserved.</p>
+            <p>Designed for GitHub Profile & GitHub Pages</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Mobile Menu Toggle -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
