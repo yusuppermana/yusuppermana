@@ -1,107 +1,140 @@
-# 💫 Hi there, I'm **Muhamad Yusup Permana** 👋
-
 <div align="center">
-  
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=10B981&center=true&vCenter=true&width=600&height=50&lines=IT+Specialist+%26+System+Analyst;MySQL+%26+Query+Optimization+Expert;Public+Sector+Financial+Systems;BPK+Audit+Support+%26+Data+Processing" alt="Typing SVG" />
 
-  <p align="center">
-    <b>Menjembatani Kebutuhan Teknis Sistem Informasi & Akuntansi Sektor Publik / Pemerintah Daerah</b>
-  </p>
+  <!-- TOP ANIMATED BANNER -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=10B981&height=220&section=header&text=Muhamad%20Yusup%20Permana&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=IT%20Specialist%20%7C%20System%20Analyst%20%7C%20MySQL%20Query%20Optimization%20Expert&descAlignY=67&descScale=18" width="100%" />
 
-  [![Email Badge](https://img.shields.io/badge/Email-yusuppermana52%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yusuppermana52@gmail.com)
-  [![WhatsApp Badge](https://img.shields.io/badge/WhatsApp-+6281271488583-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/6281271488583)
-  [![Location Badge](https://img.shields.io/badge/Location-Bogor%2C%20Jawa%20Barat-007EC6?style=for-the-badge&logo=google-maps&logoColor=white)](#-lokasi)
+  <!-- TYPING SVG SUBTITLE -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=10B981&center=true&vCenter=true&width=700&height=50&lines=%E2%9A%A1+Specialist+Aplikasi+Pemerintah+Daerah+(Pemda);%F0%9F%97%84%EF%B8%8F+Expert+Database+MySQL+%26+Query+Optimization;%F0%9F%93%8A+Analisis+Akuntansi+Sektor+Publik+%26+Audit+BPK;%F0%9F%92%A1+Menjembatani+Kebutuhan+Teknis+%26+Administratif" alt="Typing SVG" />
+  </a>
+
+  <br/><br/>
+
+  <!-- QUICK ACTION BADGES -->
+  <a href="https://wa.me/6281271488583" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-Chat%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+  <a href="mailto:yusuppermana52@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Direct%20Message-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://google.com/maps?q=Dramaga+Bogor">
+    <img src="https://img.shields.io/badge/Location-Bogor%2C%20Jawa%20Barat-007EC6?style=for-the-badge&logo=google-maps&logoColor=white" />
+  </a>
 
 </div>
 
+<br/>
+
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🚀 Profil & Executive Summary</h3>
+      <p align="justify">
+        Saya adalah <b>IT Specialist & System Analyst</b> berpengalaman lebih dari <b>10 tahun</b> dalam pengembangan dan optimasi aplikasi Pemerintah Daerah (Pemda). 
+      </p>
+      <p align="justify">
+        Kombinasi latar belakang teknis <i>(MySQL Database & Web PHP)</i> dengan pendidikan <i>D3 Keuangan & Perbankan</i> membuat saya memiliki kemampuan unik untuk menerjemahkan regulasi keuangan daerah yang kompleks menjadi sistem perangkat lunak yang presisi, efisien, dan siap audit BPK.
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🌟 Keunggulan Utama (Core Value)</h3>
+      <ul>
+        <li>⚡ <b>Query Optimization</b>: Menangani jutaan baris data transaksi keuangan Pemda dengan query yang cepat.</li>
+        <li>🏛️ <b>Regulasi Pemda & Akuntansi</b>: Memahami alur SIPD, SIMDA, dan standar akuntansi publik.</li>
+        <li>🛡️ <b>Audit BPK Readiness</b>: Pengalaman berinteraksi langsung dengan auditor Badan Pemeriksa Keuangan.</li>
+        <li>🤝 <b>Tim Orchestrator</b>: Mengkoordinasikan developer & manajemen secara efektif.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 ---
 
-### 👨‍💻 Tentangan Saya (About Me)
-
-Profesional di bidang **Teknologi Informasi & Analisis Sistem** dengan spesialisasi dalam **pengembangan aplikasi untuk Pemerintah Daerah (Kabupaten/Kota)**. Berpengalaman lebih dari 10 tahun dalam:
-
-- 🗄️ **Pengolahan Data & Database MySQL**: Perancangan, penyusunan, dan optimasi query untuk kebutuhan analisis data ber-skala besar dan sistem pelaporan (Reporting System).
-- 🏛️ **Akuntansi Sektor Publik & Sistem Pemda**: Menguasai proses bisnis akuntansi pemerintah daerah dan mampu menerjemahkannya menjadi modul perangkat lunak aplikasi secara efektif.
-- 📑 **Audit Support & Compliance**: Berpengalaman berinteraksi langsung dengan auditor dan mengorganisir data keuangan secara terstruktur untuk persiapan pemeriksaan **Badan Pemeriksa Keuangan (BPK)**.
-
----
-
-### 🛠️ Keahlian & Teknologi (Tech Stack & Skills)
+### 💻 Keahlian & Ekosistem Teknologi
 
 <div align="center">
-
-#### **Database & Backend**
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![SQL Query Optimization](https://img.shields.io/badge/Query_Optimization-10B981?style=for-the-badge&logo=databricks&logoColor=white)
-
-#### **Frontend & Analytics**
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-#### **Domain Expertise**
-![Public Sector Accounting](https://img.shields.io/badge/Akuntansi_Sektor_Publik-0F172A?style=for-the-badge&logo=adguard&logoColor=10B981)
-![Pemda Application Workflow](https://img.shields.io/badge/Alur_Aplikasi_Pemda-0F172A?style=for-the-badge&logo=diagramsdotnet&logoColor=10B981)
-![BPK Audit Support](https://img.shields.io/badge/Audit_Support_BPK-0F172A?style=for-the-badge&logo=shieldcheck&logoColor=10B981)
-
-</div>
-
----
-
-### 💼 Pengalaman Kerja (Work Experience)
 
 ```gantt
-2014-06 : 2024-01 => Akuntan Keuangan (PT. Surya Murfa Mahardika)
-2024-01 : 2026-06 => Supervisor 2 (CV. Tirta Mahardika Utama)
+title Tech Stack Overview
+section Database & Querying
+MySQL Database          : active, 2014-06-01, 2026-06-11
+SQL Query Optimization  : active, 2014-06-01, 2026-06-11
+section Core Stack & Analytics
+PHP & Web Backend       : 2014-06-01, 2026-06-11
+HTML5 / CSS3 / Excel    : 2014-06-01, 2026-06-11
+section Domain
+Public Sector Accounting : 2014-06-01, 2026-06-11
+BPK Audit Data Prep      : 2024-01-01, 2026-06-11
 ```
 
-#### 📌 **Supervisor 2** | *CV. Tirta Mahardika Utama*
-🗓️ `Januari 2024 - Juni 2026`
-- 🤝 **Koordinasi Developer**: Mengkoordinasikan dengan tim programmer untuk mengidentifikasi, menganalisis, dan memecahkan isu/bug teknis pada aplikasi.
-- 📐 **Workflow & Compliance**: Menyusun alur aplikasi yang efisien dan mematuhi regulasi serta peraturan perundang-undangan berlaku.
-- 🔍 **BPK Audit Readiness**: Menyiapkan, menguji, dan mengorganisir data keuangan terstruktur untuk pemeriksaan Badan Pemeriksa Keuangan (BPK).
+| Kategori | Teknologi & Tools | Tingkat Pengalaman |
+| :--- | :--- | :---: |
+| **Database & Analytics** | `MySQL` `Indexing` `Query Optimization` `Data Processing` | **Expert (10+ Thn)** |
+| **Application & Web** | `PHP` `HTML5` `CSS3` `JavaScript` `Reporting System` | **Advanced** |
+| **Domain & Audit** | `Akuntansi Sektor Publik` `Audit BPK Support` `Sistem Pemda` | **Expert** |
+| **Office & Management** | `Microsoft Excel (Advanced Data Analysis)` `Workflow Charting` | **Master** |
 
-#### 📌 **Akuntan Keuangan Pemda** | *PT. Surya Murfa Mahardika*
-🗓️ `Juni 2014 - Januari 2024`
-- 💻 **Integrasi Sistem**: Berkolaborasi dengan tim pengembang software untuk mengintegrasikan logika akuntansi ke dalam aplikasi Pemda secara presisi.
-- 📊 **Financial Analysis & Records**: Memelihara dan menganalisis catatan keuangan daerah untuk menjamin akurasi dan kepatuhan standar akuntansi publik.
+</div>
 
----
-
-### 🎓 Pendidikan (Education)
-
-- **Diploma 3 (D3) Keuangan dan Perbankan**
-  🏛️ *Universitas Ibn Khaldun Bogor*
+<br/>
 
 ---
 
-### 📊 GitHub Stats
+### 💼 Rekam Jejak Karir & Kontribusi
+
+<details open>
+<summary><b>1. Supervisor 2 — CV. Tirta Mahardika Utama (Jan 2024 - Jun 2026)</b></summary>
+<br/>
+
+> 🎯 *Fokus Utama: Manajemen Koordinasi Developer, Penyusunan Workflow Aplikasi Pemda, dan Data Preparation Audit BPK.*
+
+- 🛠️ **Problem Solving & Bug Resolution**: Berkoordinasi aktif dengan tim pengembang software untuk mengidentifikasi, mendiagnosis, dan menyelesaikan bug aplikasi.
+- 📐 **Flow & Regulation Alignment**: Menyusun arsitektur alur aplikasi agar sesuai 100% dengan regulasi pemerintah daerah terbaru.
+- 🔍 **BPK Audit Defense**: Menyusun dataset, rekonsiliasi angka, dan pengorganisasian data keuangan secara akurat untuk mempermudah proses pemeriksaan oleh Badan Pemeriksa Keuangan (BPK).
+
+</details>
+
+<br/>
+
+<details open>
+<summary><b>2. Akuntan Keuangan Pemda — PT. Surya Murfa Mahardika (Jun 2014 - Jan 2024)</b></summary>
+<br/>
+
+> 🎯 *Fokus Utama: Integrasi Logika Akuntansi Publik ke Sistem Aplikasi & Analisis Data Keuangan.*
+
+- 🔗 **Bridge Technical & Accounting**: Menjadi jembatan antara tim programmer dan pihak manajemen dalam mengintegrasikan rumus & aturan akuntansi pemerintah ke kode aplikasi.
+- 📊 **Financial Ledger Maintenance**: Memelihara pencatatan laporan keuangan daerah serta menjamin kepatuhan terhadap standar akuntansi pemerintah.
+
+</details>
+
+---
+
+### 📊 GitHub Activity & Statistics
 
 <div align="center">
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yusuppermana&show_icons=true&theme=tokyonight&hide_border=true&title_color=10B981&icon_color=10B981" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yusuppermana&layout=compact&theme=tokyonight&hide_border=true&title_color=10B981" alt="Top Languages" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yusuppermana&show_icons=true&theme=emerald&hide_border=true&title_color=10B981&icon_color=10B981&bg_color=0D1117" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=yusuppermana&theme=emerald&hide_border=true&background=0D1117&ring=10B981&fire=10B981" />
 
 </div>
 
 ---
 
-### 📬 Hubungi Saya (Contact)
+### 📩 Hubungi & Berdiskusi dengan Saya
 
-<p align="center">
+<div align="center">
+
+  <p>Tertarik untuk berdiskusi mengenai <b>Optimasi Database MySQL</b>, <b>Analisis Sistem Aplikasi Pemda</b>, atau <b>Persiapan Audit Keuangan</b>?</p>
+
+  <a href="https://wa.me/6281271488583" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-0812--7148--8583-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
   <a href="mailto:yusuppermana52@gmail.com">
     <img src="https://img.shields.io/badge/Email-yusuppermana52%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://wa.me/6281271488583">
-    <img src="https://img.shields.io/badge/WhatsApp-+6281271488583-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-</p>
 
-- 📍 **Lokasi**: Kp. Bojongsari Rt 004 Rw 001, Desa Neglasari, Kec. Dramaga, Kab. Bogor (16680), Jawa Barat
-- 🌐 **Bahasa**: Bahasa Indonesia (Fasih/Native) | Bahasa Inggris (Dasar)
+  <br/><br/>
 
----
-<div align="center">
-  <sub>Designed with ❤️ for Muhamad Yusup Permana</sub>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=10B981&height=100&section=footer" width="100%" />
+
 </div>
