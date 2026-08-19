@@ -84,6 +84,7 @@
             background: rgba(15, 23, 42, 0.7);
             backdrop-filter: blur(12px);
             border: 1px solid rgba(30, 41, 59, 0.8);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
         .glass-card:hover {
             border-color: rgba(16, 185, 129, 0.5);
@@ -131,9 +132,9 @@
             <!-- Desktop Nav -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-gray-300">
                 <a href="#about" class="hover:text-brand-400 transition-colors">Tentang</a>
+                <a href="#projects" class="hover:text-brand-400 transition-colors">Projek Pemda</a>
                 <a href="#skills" class="hover:text-brand-400 transition-colors">Keahlian</a>
                 <a href="#experience" class="hover:text-brand-400 transition-colors">Pengalaman</a>
-                <a href="#projects" class="hover:text-brand-400 transition-colors">Portofolio</a>
                 <a href="#contact" class="hover:text-brand-400 transition-colors">Kontak</a>
             </nav>
 
@@ -152,9 +153,9 @@
         <!-- Mobile Menu Drawer -->
         <div id="mobile-menu" class="hidden md:hidden bg-brand-dark/95 border-b border-brand-border px-6 py-6 space-y-4 backdrop-blur-xl">
             <a href="#about" class="block text-gray-300 hover:text-brand-400 font-semibold text-base">Tentang</a>
+            <a href="#projects" class="block text-gray-300 hover:text-brand-400 font-semibold text-base">Projek Pemda</a>
             <a href="#skills" class="block text-gray-300 hover:text-brand-400 font-semibold text-base">Keahlian</a>
             <a href="#experience" class="block text-gray-300 hover:text-brand-400 font-semibold text-base">Pengalaman</a>
-            <a href="#projects" class="block text-gray-300 hover:text-brand-400 font-semibold text-base">Portofolio Projek</a>
             <a href="#contact" class="block text-gray-300 hover:text-brand-400 font-semibold text-base">Kontak</a>
             <a href="https://wa.me/6281271488583" target="_blank" class="w-full text-center py-3 rounded-xl gradient-bg text-white font-bold flex items-center justify-center gap-2">
                 <i class="fab fa-whatsapp text-lg"></i> Hubungi WhatsApp
@@ -174,7 +175,7 @@
                 <div class="md:col-span-7 space-y-6 text-center md:text-left">
                     <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-500/10 border border-brand-500/30 text-brand-400 text-xs sm:text-sm font-bold">
                         <span class="w-2.5 h-2.5 rounded-full bg-brand-400 animate-ping"></span>
-                        Executive IT & Public Sector Financial Specialist
+                        Implementor Projek SIMAKDA, SIMBAKDA, SIMBLUD & SIAPBOS
                     </div>
 
                     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight">
@@ -182,39 +183,38 @@
                     </h1>
 
                     <p class="text-lg sm:text-xl text-gray-300 font-normal leading-relaxed">
-                        Spesialis <strong class="text-white font-semibold">Pengolahan Data & Optimasi Database MySQL</strong> dengan keahlian mendalam pada <strong class="text-white font-semibold">Sistem Informasi Pemerintah Daerah (Pemda)</strong> serta kesiapan data audit <strong class="text-white font-semibold">Badan Pemeriksa Keuangan (BPK)</strong>.
+                        Spesialis <strong class="text-white font-semibold">Pengolahan Data & Optimasi Database MySQL</strong> dengan rekam jejak mengawal sistem aplikasi pemerintah daerah di <strong class="text-white font-semibold">Kabupaten Sinjai, Jeneponto, dan Enrekang</strong>.
                     </p>
 
-                    <!-- Terminal Code Snippet Preview -->
-                    <div class="p-4 rounded-xl bg-brand-dark/90 border border-brand-border font-mono text-xs sm:text-sm text-left text-gray-300 shadow-2xl space-y-1">
-                        <div class="flex items-center gap-2 mb-2 text-gray-500 border-b border-brand-border/60 pb-2">
-                            <span class="w-3 h-3 rounded-full bg-red-500/80"></span>
-                            <span class="w-3 h-3 rounded-full bg-yellow-500/80"></span>
-                            <span class="w-3 h-3 rounded-full bg-green-500/80"></span>
-                            <span class="ml-2 text-xs">system_analyst.sql</span>
-                        </div>
-                        <p><span class="text-purple-400">SELECT</span> programmer, system_analyst, bpk_auditor</p>
-                        <p><span class="text-purple-400">FROM</span> public_sector_apps</p>
-                        <p><span class="text-purple-400">WHERE</span> mysql_query_optimization = <span class="text-brand-400">'EXPERT'</span></p>
-                        <p><span class="text-purple-400">AND</span> experience_years >= <span class="text-yellow-400">10</span>;</p>
+                    <!-- Region Badges -->
+                    <div class="flex flex-wrap items-center justify-center md:justify-start gap-2 pt-1">
+                        <span class="px-3 py-1 rounded-lg bg-brand-dark border border-brand-border text-xs text-gray-300 flex items-center gap-1.5 font-semibold">
+                            <i class="fas fa-location-dot text-brand-400"></i> Kab. Sinjai
+                        </span>
+                        <span class="px-3 py-1 rounded-lg bg-brand-dark border border-brand-border text-xs text-gray-300 flex items-center gap-1.5 font-semibold">
+                            <i class="fas fa-location-dot text-brand-400"></i> Kab. Jeneponto
+                        </span>
+                        <span class="px-3 py-1 rounded-lg bg-brand-dark border border-brand-border text-xs text-gray-300 flex items-center gap-1.5 font-semibold">
+                            <i class="fas fa-location-dot text-brand-400"></i> Kab. Enrekang
+                        </span>
                     </div>
 
                     <div class="pt-4 flex flex-wrap items-center justify-center md:justify-start gap-4">
                         <a href="https://wa.me/6281271488583" target="_blank" class="px-8 py-4 rounded-xl gradient-bg hover:opacity-95 text-white font-bold text-base transition-all shadow-xl shadow-brand-500/30 hover:-translate-y-1 flex items-center gap-3">
                             <i class="fab fa-whatsapp text-xl"></i> Konsultasi via WhatsApp
                         </a>
-                        <a href="mailto:yusuppermana52@gmail.com" class="px-8 py-4 rounded-xl glass-card text-gray-200 hover:text-white font-bold text-base transition-all hover:-translate-y-1 flex items-center gap-3">
-                            <i class="far fa-envelope text-xl text-brand-400"></i> Kirim Email
+                        <a href="#projects" class="px-8 py-4 rounded-xl glass-card text-gray-200 hover:text-white font-bold text-base transition-all hover:-translate-y-1 flex items-center gap-3">
+                            <i class="fas fa-layer-group text-xl text-brand-400"></i> Lihat Projek Pemda
                         </a>
                     </div>
                 </div>
 
                 <!-- Stylish Visual Card -->
                 <div class="md:col-span-5 flex justify-center">
-                    <div class="relative w-80 h-96 sm:w-96 sm:h-[420px] rounded-3xl p-1 bg-gradient-to-br from-brand-500 via-brand-accent to-purple-600 shadow-2xl animate-float">
+                    <div class="relative w-80 h-96 sm:w-96 sm:h-[430px] rounded-3xl p-1 bg-gradient-to-br from-brand-500 via-brand-accent to-purple-600 shadow-2xl animate-float">
                         <div class="w-full h-full bg-brand-card/95 rounded-[22px] p-8 flex flex-col justify-between relative overflow-hidden backdrop-blur-2xl">
                             <!-- Background Watermark -->
-                            <i class="fas fa-database absolute -bottom-10 -right-10 text-9xl text-brand-500/5 pointer-events-none"></i>
+                            <i class="fas fa-landmark absolute -bottom-10 -right-10 text-9xl text-brand-500/5 pointer-events-none"></i>
                             
                             <div class="space-y-4">
                                 <div class="w-16 h-16 rounded-2xl bg-brand-500/10 border border-brand-500/30 flex items-center justify-center text-brand-400 text-3xl glow-emerald">
@@ -230,12 +230,12 @@
                                     <span class="font-mono text-brand-400 font-bold">MySQL Expert</span>
                                 </div>
                                 <div class="flex items-center justify-between text-xs text-gray-300">
-                                    <span><i class="fas fa-landmark text-brand-400 mr-2"></i>Domain</span>
-                                    <span class="font-semibold text-gray-200">Aplikasi Pemda</span>
+                                    <span><i class="fas fa-diagram-project text-brand-400 mr-2"></i>Sistem Pemda</span>
+                                    <span class="font-semibold text-gray-200">SIMAKDA / SIMBAKDA</span>
                                 </div>
                                 <div class="flex items-center justify-between text-xs text-gray-300">
-                                    <span><i class="fas fa-shield-check text-brand-400 mr-2"></i>Compliance</span>
-                                    <span class="font-semibold text-gray-200">BPK Audit Ready</span>
+                                    <span><i class="fas fa-hospital text-brand-400 mr-2"></i>BLUD & BOS</span>
+                                    <span class="font-semibold text-gray-200">SIMBLUD / SIAPBOS</span>
                                 </div>
                             </div>
 
@@ -257,27 +257,207 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
                 <div class="glass-card p-6 rounded-2xl text-center">
-                    <h3 class="text-4xl font-extrabold text-white mb-1"><span class="gradient-text">10+</span></h3>
-                    <p class="text-xs text-gray-400 font-medium">Tahun Pengalaman</p>
+                    <h3 class="text-4xl font-extrabold text-white mb-1"><span class="gradient-text">5+</span></h3>
+                    <p class="text-xs text-gray-400 font-medium">Sistem Utama Pemda</p>
                 </div>
                 <div class="glass-card p-6 rounded-2xl text-center">
-                    <h3 class="text-4xl font-extrabold text-white mb-1"><span class="gradient-text">MySQL</span></h3>
-                    <p class="text-xs text-gray-400 font-medium">Query Optimization</p>
+                    <h3 class="text-4xl font-extrabold text-white mb-1"><span class="gradient-text">3</span></h3>
+                    <p class="text-xs text-gray-400 font-medium">Kabupaten (Sinjai, Jeneponto, Enrekang)</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center">
+                    <h3 class="text-4xl font-extrabold text-white mb-1"><span class="gradient-text">SIPD</span></h3>
+                    <p class="text-xs text-gray-400 font-medium">Integrasi Sistem Pemda</p>
                 </div>
                 <div class="glass-card p-6 rounded-2xl text-center">
                     <h3 class="text-4xl font-extrabold text-white mb-1"><span class="gradient-text">BPK</span></h3>
-                    <p class="text-xs text-gray-400 font-medium">Audit Preparation</p>
-                </div>
-                <div class="glass-card p-6 rounded-2xl text-center">
-                    <h3 class="text-4xl font-extrabold text-white mb-1"><span class="gradient-text">Pemda</span></h3>
-                    <p class="text-xs text-gray-400 font-medium">System Integration</p>
+                    <p class="text-xs text-gray-400 font-medium">Kesiapan Audit Data</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- FEATURED PROJECTS SECTION -->
+    <section id="projects" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
+                <span class="px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-xs font-bold uppercase tracking-wider">
+                    Portofolio Projek
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Sistem Aplikasi Pemda yang Ditangani</h2>
+                <p class="text-gray-400 text-sm">Pengalaman mengawal perancangan alur, optimasi database, integrasi sistem, dan persiapan audit di berbagai pemerintah daerah.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Project 1: SIMAKDA -->
+                <div class="glass-card p-8 rounded-3xl space-y-6 flex flex-col justify-between relative group">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 text-3xl">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-brand-dark border border-brand-border text-xs text-gray-400 font-mono">SIMAKDA</span>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">
+                            SIMAKDA
+                        </h3>
+                        <p class="text-xs font-semibold text-brand-400">Sistem Informasi Manajemen Anggaran & Akuntansi Keuangan Daerah</p>
+                        
+                        <p class="text-sm text-gray-400 leading-relaxed">
+                            Mengelola perencanaan anggaran, penatausahaan transaksi keuangan daerah, serta penyusunan laporan keuangan pemerintah daerah yang akurat dan patuh regulasi.
+                        </p>
+                    </div>
+
+                    <div class="pt-6 border-t border-brand-border/80 space-y-3">
+                        <span class="text-xs font-bold text-gray-300 block">Wilayah Implementasi:</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 rounded-md bg-brand-dark border border-brand-border text-xs text-gray-300">Kab. Sinjai</span>
+                            <span class="px-2.5 py-1 rounded-md bg-brand-dark border border-brand-border text-xs text-gray-300">Kab. Jeneponto</span>
+                            <span class="px-2.5 py-1 rounded-md bg-brand-dark border border-brand-border text-xs text-gray-300">Kab. Enrekang</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: SIMBAKDA -->
+                <div class="glass-card p-8 rounded-3xl space-y-6 flex flex-col justify-between relative group">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-14 h-14 rounded-2xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400 text-3xl">
+                                <i class="fas fa-boxes-stacked"></i>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-brand-dark border border-brand-border text-xs text-gray-400 font-mono">SIMBAKDA</span>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">
+                            SIMBAKDA
+                        </h3>
+                        <p class="text-xs font-semibold text-blue-400">Sistem Informasi Manajemen Barang, Aset & Kekayaan Daerah</p>
+                        
+                        <p class="text-sm text-gray-400 leading-relaxed">
+                            Manajemen inventarisasi aset tetap daerah, penyusunan KIB (Kartu Inventaris Barang), pencatatan barang daerah, serta persiapan rekonsiliasi audit BPK.
+                        </p>
+                    </div>
+
+                    <div class="pt-6 border-t border-brand-border/80 space-y-3">
+                        <span class="text-xs font-bold text-gray-300 block">Wilayah Implementasi:</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 rounded-md bg-brand-dark border border-brand-border text-xs text-gray-300">Kab. Sinjai</span>
+                            <span class="px-2.5 py-1 rounded-md bg-brand-dark border border-brand-border text-xs text-gray-300">Kab. Enrekang</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: SIMBLUD RSUD -->
+                <div class="glass-card p-8 rounded-3xl space-y-6 flex flex-col justify-between relative group">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-14 h-14 rounded-2xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400 text-3xl">
+                                <i class="fas fa-hospital"></i>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-brand-dark border border-brand-border text-xs text-gray-400 font-mono">SIMBLUD RSUD</span>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">
+                            SIMBLUD RSUD
+                        </h3>
+                        <p class="text-xs font-semibold text-purple-400">Sistem Informasi Manajemen BLUD Web Integrasi SIPD</p>
+                        
+                        <p class="text-sm text-gray-400 leading-relaxed">
+                            Pengelolaan operasional & transaksi keuangan Badan Layanan Umum Daerah (BLUD) Rumah Sakit yang terintegrasi langsung dengan Sistem Informasi Pemerintah Daerah.
+                        </p>
+                    </div>
+
+                    <div class="pt-6 border-t border-brand-border/80 space-y-3">
+                        <span class="text-xs font-bold text-gray-300 block">Wilayah Implementasi:</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 rounded-md bg-brand-dark border border-brand-border text-xs text-gray-300">Kab. Sinjai</span>
+                            <span class="px-2.5 py-1 rounded-md bg-brand-dark border border-brand-border text-xs text-gray-300">Kab. Jeneponto</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: SIMBLUD PUSKESMAS -->
+                <div class="glass-card p-8 rounded-3xl space-y-6 flex flex-col justify-between relative group">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-14 h-14 rounded-2xl bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 text-3xl">
+                                <i class="fas fa-stethoscope"></i>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-brand-dark border border-brand-border text-xs text-gray-400 font-mono">SIMBLUD PUSKESMAS</span>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">
+                            SIMBLUD PUSKESMAS
+                        </h3>
+                        <p class="text-xs font-semibold text-cyan-400">Sistem Informasi Manajemen BLUD Web Puskesmas</p>
+                        
+                        <p class="text-sm text-gray-400 leading-relaxed">
+                            Sistem akuntansi dan pengelolaan keuangan BLUD berbasis web untuk Fasilitas Kesehatan Tingkat Pertama (Puskesmas) yang terintegrasi dengan SIPD.
+                        </p>
+                    </div>
+
+                    <div class="pt-6 border-t border-brand-border/80 space-y-3">
+                        <span class="text-xs font-bold text-gray-300 block">Wilayah Implementasi:</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 rounded-md bg-brand-dark border border-brand-border text-xs text-gray-300">Kab. Sinjai</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: SIAPBOS -->
+                <div class="glass-card p-8 rounded-3xl space-y-6 flex flex-col justify-between relative group">
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <div class="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 text-3xl">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <span class="px-3 py-1 rounded-full bg-brand-dark border border-brand-border text-xs text-gray-400 font-mono">SIAPBOS</span>
+                        </div>
+                        
+                        <h3 class="text-xl font-bold text-white group-hover:text-brand-400 transition-colors">
+                            SIAPBOS
+                        </h3>
+                        <p class="text-xs font-semibold text-amber-400">Sistem Informasi Administrasi Pengelolaan Dana BOS</p>
+                        
+                        <p class="text-sm text-gray-400 leading-relaxed">
+                            Pengelolaan perencanaan, penganggaran, dan laporan pertanggungjawaban administrasi dana Bantuan Operasional Sekolah (BOS) tingkat daerah.
+                        </p>
+                    </div>
+
+                    <div class="pt-6 border-t border-brand-border/80 space-y-3">
+                        <span class="text-xs font-bold text-gray-300 block">Wilayah Implementasi:</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 rounded-md bg-brand-dark border border-brand-border text-xs text-gray-300">Kab. Sinjai</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Strategic Summary Card -->
+                <div class="glass-card p-8 rounded-3xl flex flex-col justify-between bg-gradient-to-br from-brand-card to-brand-900/40 border border-brand-500/30">
+                    <div class="space-y-4">
+                        <div class="w-14 h-14 rounded-2xl bg-brand-500/20 text-brand-400 flex items-center justify-center text-3xl glow-emerald">
+                            <i class="fas fa-handshake-angle"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Butuh Implementasi / Optimasi Sistem Pemda?</h3>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            Siap membantu instansi / tim pengembang software dalam merancang alur aplikasi, optimasi query MySQL, dan penyusunan data audit BPK.
+                        </p>
+                    </div>
+
+                    <div class="pt-6">
+                        <a href="https://wa.me/6281271488583" target="_blank" class="w-full py-3 rounded-xl gradient-bg text-white font-bold text-sm flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
+                            <i class="fab fa-whatsapp text-lg"></i> Diskusi Projek Sekarang
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- ABOUT SECTION -->
-    <section id="about" class="py-24">
+    <section id="about" class="py-24 bg-brand-dark/40 border-y border-brand-border">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
                 <span class="px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-xs font-bold uppercase tracking-wider">
@@ -323,7 +503,7 @@
     </section>
 
     <!-- SKILLS SECTION -->
-    <section id="skills" class="py-24 bg-brand-dark/60 border-y border-brand-border">
+    <section id="skills" class="py-24">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
                 <span class="px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-xs font-bold uppercase tracking-wider">
@@ -399,7 +579,7 @@
     </section>
 
     <!-- EXPERIENCE SECTION -->
-    <section id="experience" class="py-24">
+    <section id="experience" class="py-24 bg-brand-dark/60 border-y border-brand-border">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
                 <span class="px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-xs font-bold uppercase tracking-wider">
@@ -422,8 +602,8 @@
                         </div>
                     </div>
                     <ul class="space-y-2 text-sm text-gray-300 list-disc list-inside">
-                        <li>Mengkoordinasikan dengan tim programmer untuk mengidentifikasi dan memecahkan isu teknis yang muncul pada aplikasi.</li>
-                        <li>Menyusun alur aplikasi yang efisien dan mematuhi regulasi perundang-undangan berlaku.</li>
+                        <li>Mengkoordinasikan dengan tim programmer untuk mengidentifikasi dan memecahkan isu teknis yang muncul pada sistem SIMAKDA, SIMBAKDA, SIMBLUD, dan SIAPBOS.</li>
+                        <li>Menyusun alur aplikasi yang efisien, terintegrasi SIPD, dan mematuhi regulasi perundang-undangan berlaku.</li>
                         <li>Menyiapkan, menyusun, dan mengorganisir data keuangan untuk keperluan pemeriksaan/audit oleh BPK.</li>
                     </ul>
                 </div>
@@ -440,7 +620,7 @@
                         </div>
                     </div>
                     <ul class="space-y-2 text-sm text-gray-300 list-disc list-inside">
-                        <li>Berkolaborasi dengan tim software developer untuk memastikan pemahaman mendalam proses akuntansi terintegrasi sempurna ke dalam software aplikasi.</li>
+                        <li>Berkolaborasi dengan tim software developer untuk memastikan pemahaman mendalam proses akuntansi terintegrasi sempurna ke dalam sistem SIMAKDA & SIMBAKDA.</li>
                         <li>Bertanggung jawab atas pemeliharaan dan analisis catatan keuangan daerah untuk menjamin akurasi dan kepatuhan standar akuntansi publik.</li>
                     </ul>
                 </div>
@@ -450,14 +630,14 @@
     </section>
 
     <!-- CONTACT SECTION -->
-    <section id="contact" class="py-24 bg-brand-dark/80 border-t border-brand-border">
+    <section id="contact" class="py-24 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl mx-auto text-center space-y-4 mb-16">
                 <span class="px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-400 text-xs font-bold uppercase tracking-wider">
                     Kontak
                 </span>
                 <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Hubungi Saya</h2>
-                <p class="text-gray-400 text-sm">Siap berkontribusi dalam proyek pengolahan data, optimasi database MySQL, dan pengembangan aplikasi pemerintah daerah.</p>
+                <p class="text-gray-400 text-sm">Siap berkontribusi dalam projek pengolahan data, optimasi database MySQL, dan pengembangan aplikasi pemerintah daerah.</p>
             </div>
 
             <div class="grid sm:grid-cols-3 gap-6 max-w-4xl mx-auto">

@@ -5,7 +5,7 @@
 
   <!-- TYPING SVG SUBTITLE -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=10B981&center=true&vCenter=true&width=700&height=50&lines=%E2%9A%A1+Specialist+Aplikasi+Pemerintah+Daerah+(Pemda);%F0%9F%97%84%EF%B8%8F+Expert+Database+MySQL+%26+Query+Optimization;%F0%9F%93%8A+Analisis+Akuntansi+Sektor+Publik+%26+Audit+BPK;%F0%9F%92%A1+Menjembatani+Kebutuhan+Teknis+%26+Administratif" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=10B981&center=true&vCenter=true&width=700&height=50&lines=%E2%9A%A1+Implementor+%26+Analis+Projek+SIMAKDA%2C+SIMBAKDA%2C+SIMBLUD%2C+SIAPBOS;%F0%9F%8F%9B%EF%B8%8F+Kabupaten+Sinjai%2C+Jeneponto+%26+Enrekang;%F0%9F%97%84%EF%B8%8F+Expert+Database+MySQL+%26+Query+Optimization;%F0%9F%93%8A+Integrasi+SIPD%2C+Akuntansi+Pemda+%26+Audit+BPK" alt="Typing SVG" />
   </a>
 
   <br/><br/>
@@ -30,19 +30,19 @@
     <td width="50%" valign="top">
       <h3 align="center">🚀 Profil & Executive Summary</h3>
       <p align="justify">
-        Saya adalah <b>IT Specialist & System Analyst</b> berpengalaman lebih dari <b>10 tahun</b> dalam pengembangan dan optimasi aplikasi Pemerintah Daerah (Pemda). 
+        Saya adalah <b>IT Specialist & System Analyst</b> berpengalaman lebih dari <b>10 tahun</b> dalam analisis sistem, optimasi database MySQL, dan pengembangan aplikasi Pemerintah Daerah (Pemda). 
       </p>
       <p align="justify">
-        Kombinasi latar belakang teknis <i>(MySQL Database & Web PHP)</i> dengan pendidikan <i>D3 Keuangan & Perbankan</i> membuat saya memiliki kemampuan unik untuk menerjemahkan regulasi keuangan daerah yang kompleks menjadi sistem perangkat lunak yang presisi, efisien, dan siap audit BPK.
+        Telah sukses mengawal berbagai projek strategis daerah seperti <b>SIMAKDA, SIMBAKDA, SIMBLUD (RSUD & Puskesmas), serta SIAPBOS</b> di Kabupaten Sinjai, Kabupaten Jeneponto, dan Kabupaten Enrekang. Menjembatani regulasi daerah dengan eksekusi teknis software secara presisi.
       </p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">🌟 Keunggulan Utama (Core Value)</h3>
       <ul>
+        <li>🏛️ <b>Pengalaman Projek Pemda</b>: Menguasai alur SIMAKDA, SIMBAKDA, SIMBLUD, SIAPBOS.</li>
         <li>⚡ <b>Query Optimization</b>: Menangani jutaan baris data transaksi keuangan Pemda dengan query yang cepat.</li>
-        <li>🏛️ <b>Regulasi Pemda & Akuntansi</b>: Memahami alur SIPD, SIMDA, dan standar akuntansi publik.</li>
+        <li>🔗 <b>Integrasi SIPD</b>: Menerjemahkan integrasi data BLUD ke Sistem Informasi Pemerintah Daerah.</li>
         <li>🛡️ <b>Audit BPK Readiness</b>: Pengalaman berinteraksi langsung dengan auditor Badan Pemeriksa Keuangan.</li>
-        <li>🤝 <b>Tim Orchestrator</b>: Mengkoordinasikan developer & manajemen secara efektif.</li>
       </ul>
     </td>
   </tr>
@@ -50,33 +50,32 @@
 
 ---
 
-### 💻 Keahlian & Ekosistem Teknologi
+### 🏛️ Projek & Sistem Pemda yang Ditangani (Featured Government Projects)
 
 <div align="center">
 
-```gantt
-title Tech Stack Overview
-section Database & Querying
-MySQL Database          : active, 2014-06-01, 2026-06-11
-SQL Query Optimization  : active, 2014-06-01, 2026-06-11
-section Core Stack & Analytics
-PHP & Web Backend       : 2014-06-01, 2026-06-11
-HTML5 / CSS3 / Excel    : 2014-06-01, 2026-06-11
-section Domain
-Public Sector Accounting : 2014-06-01, 2026-06-11
-BPK Audit Data Prep      : 2024-01-01, 2026-06-11
-```
+| Sistem Aplikasi | Deskripsi & Cakupan | Wilayah Implementasi |
+| :--- | :--- | :--- |
+| **📊 SIMAKDA** | **Sistem Informasi Manajemen Anggaran & Akuntansi Keuangan Daerah**<br/><i>Pengelolaan anggaran, penatausahaan keuangan, dan penyusunan laporan keuangan daerah.</i> | ![Sinjai](https://img.shields.io/badge/Kab._Sinjai-0F172A?style=flat-square&logo=google-maps&logoColor=10B981) ![Jeneponto](https://img.shields.io/badge/Kab._Jeneponto-0F172A?style=flat-square&logo=google-maps&logoColor=10B981) ![Enrekang](https://img.shields.io/badge/Kab._Enrekang-0F172A?style=flat-square&logo=google-maps&logoColor=10B981) |
+| **📦 SIMBAKDA** | **Sistem Informasi Manajemen Barang, Aset dan Kekayaan Daerah**<br/><i>Manajemen inventarisasi barang daerah, pencatatan aset tetap, serta rekonsiliasi data aset untuk audit BPK.</i> | ![Sinjai](https://img.shields.io/badge/Kab._Sinjai-0F172A?style=flat-square&logo=google-maps&logoColor=10B981) ![Enrekang](https://img.shields.io/badge/Kab._Enrekang-0F172A?style=flat-square&logo=google-maps&logoColor=10B981) |
+| **🏥 SIMBLUD RSUD** | **Sistem Informasi Manajemen BLUD berbasis Web (Integrasi SIPD)**<br/><i>Pengelolaan operasional keuangan & pelayanan RSUD yang terintegrasi dengan Sistem Informasi Pemerintah Daerah.</i> | ![Sinjai](https://img.shields.io/badge/Kab._Sinjai-0F172A?style=flat-square&logo=google-maps&logoColor=10B981) ![Jeneponto](https://img.shields.io/badge/Kab._Jeneponto-0F172A?style=flat-square&logo=google-maps&logoColor=10B981) |
+| **🩺 SIMBLUD PUSKESMAS** | **Sistem Informasi Manajemen BLUD Web Puskesmas (Integrasi SIPD)**<br/><i>Sistem akuntansi & keuangan BLUD untuk Fasilitas Kesehatan Tingkat Pertama (FKTP / Puskesmas).</i> | ![Sinjai](https://img.shields.io/badge/Kab._Sinjai-0F172A?style=flat-square&logo=google-maps&logoColor=10B981) |
+| **🏫 SIAPBOS** | **Sistem Informasi Administrasi Pengelolaan Dana BOS**<br/><i>Pengelolaan administrasi, perencanaan, dan pertanggungjawaban dana Bantuan Operasional Sekolah (BOS) daerah.</i> | ![Sinjai](https://img.shields.io/badge/Kab._Sinjai-0F172A?style=flat-square&logo=google-maps&logoColor=10B981) |
+
+</div>
+
+<br/>
+
+---
+
+### 💻 Keahlian & Ekosistem Teknologi
 
 | Kategori | Teknologi & Tools | Tingkat Pengalaman |
 | :--- | :--- | :---: |
 | **Database & Analytics** | `MySQL` `Indexing` `Query Optimization` `Data Processing` | **Expert (10+ Thn)** |
 | **Application & Web** | `PHP` `HTML5` `CSS3` `JavaScript` `Reporting System` | **Advanced** |
-| **Domain & Audit** | `Akuntansi Sektor Publik` `Audit BPK Support` `Sistem Pemda` | **Expert** |
+| **Domain & Audit** | `SIMAKDA` `SIMBAKDA` `SIMBLUD` `SIAPBOS` `Audit BPK Support` | **Expert** |
 | **Office & Management** | `Microsoft Excel (Advanced Data Analysis)` `Workflow Charting` | **Master** |
-
-</div>
-
-<br/>
 
 ---
 
@@ -86,11 +85,9 @@ BPK Audit Data Prep      : 2024-01-01, 2026-06-11
 <summary><b>1. Supervisor 2 — CV. Tirta Mahardika Utama (Jan 2024 - Jun 2026)</b></summary>
 <br/>
 
-> 🎯 *Fokus Utama: Manajemen Koordinasi Developer, Penyusunan Workflow Aplikasi Pemda, dan Data Preparation Audit BPK.*
-
-- 🛠️ **Problem Solving & Bug Resolution**: Berkoordinasi aktif dengan tim pengembang software untuk mengidentifikasi, mendiagnosis, dan menyelesaikan bug aplikasi.
-- 📐 **Flow & Regulation Alignment**: Menyusun arsitektur alur aplikasi agar sesuai 100% dengan regulasi pemerintah daerah terbaru.
-- 🔍 **BPK Audit Defense**: Menyusun dataset, rekonsiliasi angka, dan pengorganisasian data keuangan secara akurat untuk mempermudah proses pemeriksaan oleh Badan Pemeriksa Keuangan (BPK).
+- 🛠️ **Problem Solving & Bug Resolution**: Berkoordinasi aktif dengan tim pengembang software untuk mengidentifikasi, mendiagnosis, dan menyelesaikan bug pada sistem SIMAKDA, SIMBAKDA, SIMBLUD, dan SIAPBOS.
+- 📐 **Flow & Regulation Alignment**: Menyusun arsitektur alur aplikasi yang terintegrasi dengan SIPD (Sistem Informasi Pemerintah Daerah) di Kabupaten Sinjai, Jeneponto, dan Enrekang.
+- 🔍 **BPK Audit Defense**: Menyusun dataset, rekonsiliasi data aset dan keuangan secara akurat untuk pemeriksaan Badan Pemeriksa Keuangan (BPK).
 
 </details>
 
@@ -100,10 +97,8 @@ BPK Audit Data Prep      : 2024-01-01, 2026-06-11
 <summary><b>2. Akuntan Keuangan Pemda — PT. Surya Murfa Mahardika (Jun 2014 - Jan 2024)</b></summary>
 <br/>
 
-> 🎯 *Fokus Utama: Integrasi Logika Akuntansi Publik ke Sistem Aplikasi & Analisis Data Keuangan.*
-
-- 🔗 **Bridge Technical & Accounting**: Menjadi jembatan antara tim programmer dan pihak manajemen dalam mengintegrasikan rumus & aturan akuntansi pemerintah ke kode aplikasi.
-- 📊 **Financial Ledger Maintenance**: Memelihara pencatatan laporan keuangan daerah serta menjamin kepatuhan terhadap standar akuntansi pemerintah.
+- 🔗 **Bridge Technical & Accounting**: Menjadi jembatan antara tim programmer dan manajemen dalam mengintegrasikan logika akuntansi pemerintah ke modul aplikasi SIMAKDA dan SIMBAKDA.
+- 📊 **Financial Ledger Maintenance**: Memelihara pencatatan laporan keuangan daerah serta menjamin kepatuhan terhadap standar akuntansi pemerintah daerah.
 
 </details>
 
@@ -123,8 +118,6 @@ BPK Audit Data Prep      : 2024-01-01, 2026-06-11
 ### 📩 Hubungi & Berdiskusi dengan Saya
 
 <div align="center">
-
-  <p>Tertarik untuk berdiskusi mengenai <b>Optimasi Database MySQL</b>, <b>Analisis Sistem Aplikasi Pemda</b>, atau <b>Persiapan Audit Keuangan</b>?</p>
 
   <a href="https://wa.me/6281271488583" target="_blank">
     <img src="https://img.shields.io/badge/WhatsApp-0812--7148--8583-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
