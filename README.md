@@ -39,7 +39,7 @@
     <td width="50%" valign="top">
       <h3 align="center">🌟 Keunggulan Utama (Core Value)</h3>
       <ul>
-        <li>🏛️ <b>Pengalaman Projek Yang di kerjakan</b>: Menguasai alur SIMAKDA, SIMBAKDA, SIMBLUD, SIAPBOS.</li>
+        <li>🏛️ <b>Pengalaman Projek Yang di Tangani</b>: Menguasai alur SIMAKDA, SIMBAKDA, SIMBLUD, SIAPBOS.</li>
         <li>⚡ <b>Query Optimization</b>: Menangani jutaan baris data transaksi keuangan Pemda dengan query yang cepat.</li>
         <li>🔗 <b>Integrasi SIPD</b>: Menerjemahkan integrasi data BLUD ke Sistem Informasi Pemerintah Daerah.</li>
         <li>🛡️ <b>Audit BPK Readiness</b>: Pengalaman berinteraksi langsung dengan auditor Badan Pemeriksa Keuangan.</li>
