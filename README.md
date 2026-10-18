@@ -82,7 +82,7 @@
 ### 💼 Rekam Jejak Karir & Kontribusi
 
 <details open>
-<summary><b>1. Supervisor 2 — CV. Tirta Mahardika Utama (Jan 2024 - Jun 2026)</b></summary>
+<summary><b>1. Supervisor 2 — CV. Tirta Mahardika Utama (Sep 2021 - Jun 2026)</b></summary>
 <br/>
 
 - 🛠️ **Problem Solving & Bug Resolution**: Berkoordinasi aktif dengan tim pengembang software untuk mengidentifikasi, mendiagnosis, dan menyelesaikan bug pada sistem SIMAKDA, SIMBAKDA, SIMBLUD, dan SIAPBOS.
@@ -94,7 +94,7 @@
 <br/>
 
 <details open>
-<summary><b>2. Akuntan Keuangan Pemda — PT. Surya Murfa Mahardika (Jun 2014 - Jan 2024)</b></summary>
+<summary><b>2. Akuntan Keuangan Pemda — PT. Surya Murfa Mahardika (Jun 2014 - Sept 2020)</b></summary>
 <br/>
 
 - 🔗 **Bridge Technical & Accounting**: Menjadi jembatan antara tim programmer dan manajemen dalam mengintegrasikan logika akuntansi pemerintah ke modul aplikasi SIMAKDA dan SIMBAKDA.
